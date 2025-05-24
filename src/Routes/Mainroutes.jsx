@@ -3,6 +3,7 @@ import Home from "../Components/Home";
 import About from "../Components/About";
 import Products from "../Components/Products";
 import Serviceses from "../Components/Serviceses";
+import ProductDetail from "../Components/ProductDetail";
 
 const Mainroutes = () => {
   return (
@@ -11,6 +12,7 @@ const Mainroutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/detail" element={<ProductDetail />} />
         <Route path="/serviceses" element={<Serviceses />} />
       </Routes>
     </div>
